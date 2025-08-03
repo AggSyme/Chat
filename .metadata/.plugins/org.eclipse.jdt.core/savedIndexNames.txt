@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+C:\Users\asyme\Desktop\java\Threads\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-3886203803.index
-113173453.index
