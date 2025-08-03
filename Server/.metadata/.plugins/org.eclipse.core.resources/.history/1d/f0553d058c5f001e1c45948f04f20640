@@ -1,0 +1,30 @@
+package Cliend_1;
+
+import java.net.*;
+import java.io.*;
+
+public class ClientProtocol {
+
+	BufferedReader user = new BufferedReader(new InputStreamReader(System.in));
+	
+	public String registerId() throws IOException {
+		return user.readLine();
+	}
+	
+	public String registerIdToConnectWith() throws IOException {
+		return user.readLine();
+	}
+	
+	public String prepareRequest(String id) throws IOException {
+	
+		System.out.print("Enter message to send:");
+		String theOutput = id+"/"+user.readLine();
+		return theOutput;
+	}
+
+	public void processReply(String theInput) throws IOException {
+	
+		System.out.println("Message received: " + theInput);
+	}
+}
+
